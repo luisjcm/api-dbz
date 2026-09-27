@@ -5,7 +5,7 @@ export const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
   database: 'dbz_api',
-  password: 'qwertyuiop-123456789', // Cambia esto por tu clave real
+  password: 'postgres', // Cambia esto por tu clave real
   port: 5432,
 });
 

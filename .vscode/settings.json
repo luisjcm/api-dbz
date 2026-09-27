@@ -7,7 +7,7 @@
             "port": 5432,
             "driver": "PostgreSQL",
             "name": "localhost",
-            "database": "postgres",
+            "database": "dbz_api",
             "username": "postgres"
         }
     ]
