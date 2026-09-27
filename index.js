@@ -1,8 +1,9 @@
 import express from 'express';
 import personajesRoutes from './routes/personajes.routes.js';
+import 'dotenv/config'; // Aseguramos que lea las variables de entorno
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
